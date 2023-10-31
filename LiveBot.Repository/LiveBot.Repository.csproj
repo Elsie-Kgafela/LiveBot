@@ -1,0 +1,104 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191224075221_Initial Create.cs" />
+    <Compile Remove="Migrations\20191224075221_Initial Create.Designer.cs" />
+    <Compile Remove="Migrations\20191224080451_Initial Create.cs" />
+    <Compile Remove="Migrations\20191224080451_Initial Create.Designer.cs" />
+    <Compile Remove="Migrations\20191224231133_Add DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191224231133_Add DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191224233948_Add DiscordChannel, for real.cs" />
+    <Compile Remove="Migrations\20191224233948_Add DiscordChannel, for real.Designer.cs" />
+    <Compile Remove="Migrations\20191224234411_Add DiscordGuild to DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191224234411_Add DiscordGuild to DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191225002506_Add DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191225002506_Add DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191225002537_Add DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191225002537_Add DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191225003135_Add DiscordChannel relationship.cs" />
+    <Compile Remove="Migrations\20191225003135_Add DiscordChannel relationship.Designer.cs" />
+    <Compile Remove="Migrations\20191225003413_Add DiscordChannel inverse.cs" />
+    <Compile Remove="Migrations\20191225003413_Add DiscordChannel inverse.Designer.cs" />
+    <Compile Remove="Migrations\20191225004136_Add DiscordChannel required.cs" />
+    <Compile Remove="Migrations\20191225004136_Add DiscordChannel required.Designer.cs" />
+    <Compile Remove="Migrations\20191225005717_Create DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191225005717_Create DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191225014440_Add one-to-many.cs" />
+    <Compile Remove="Migrations\20191225014440_Add one-to-many.Designer.cs" />
+    <Compile Remove="Migrations\20191226082026_Create DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191226082026_Create DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191226090353_Create DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191226090353_Create DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191226091545_Create DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191226091545_Create DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191226093339_Create DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191226093339_Create DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191226093722_Initial Create.cs" />
+    <Compile Remove="Migrations\20191226093722_Initial Create.Designer.cs" />
+    <Compile Remove="Migrations\20191226093759_Create DiscordChannel.cs" />
+    <Compile Remove="Migrations\20191226093759_Create DiscordChannel.Designer.cs" />
+    <Compile Remove="Migrations\20191226094513_Initial Create.cs" />
+    <Compile Remove="Migrations\20191226094513_Initial Create.Designer.cs" />
+    <Compile Remove="Migrations\20191226100845_Initial Create.cs" />
+    <Compile Remove="Migrations\20191226100845_Initial Create.Designer.cs" />
+    <Compile Remove="Migrations\20191226101133_Initial Create.cs" />
+    <Compile Remove="Migrations\20191226101133_Initial Create.Designer.cs" />
+    <Compile Remove="Migrations\20200125170718_Create BaseDiscordModel.cs" />
+    <Compile Remove="Migrations\20200125170718_Create BaseDiscordModel.Designer.cs" />
+    <Compile Remove="Migrations\20200301063622_Added deleted field to base models.cs" />
+    <Compile Remove="Migrations\20200301063622_Added deleted field to base models.Designer.cs" />
+    <Compile Remove="Migrations\20200301064503_Moved deleted field to base model.cs" />
+    <Compile Remove="Migrations\20200301064503_Moved deleted field to base model.Designer.cs" />
+    <Compile Remove="Migrations\20200301064622_Added deleted field to base model.cs" />
+    <Compile Remove="Migrations\20200301064622_Added deleted field to base model.Designer.cs" />
+    <Compile Remove="Migrations\20200607024045_Create StreamSubscription.cs" />
+    <Compile Remove="Migrations\20200607024045_Create StreamSubscription.Designer.cs" />
+    <Compile Remove="Migrations\20200607024152_Create DiscordRole and StreamSubscription.cs" />
+    <Compile Remove="Migrations\20200607024152_Create DiscordRole and StreamSubscription.Designer.cs" />
+    <Compile Remove="Migrations\20200607083134_Add StreamUser.cs" />
+    <Compile Remove="Migrations\20200607083134_Add StreamUser.Designer.cs" />
+    <Compile Remove="Migrations\20200607093728_Add StreamSubscription and StreamUser.cs" />
+    <Compile Remove="Migrations\20200607093728_Add StreamSubscription and StreamUser.Designer.cs" />
+    <Compile Remove="Migrations\20200608003437_Test.cs" />
+    <Compile Remove="Migrations\20200608003437_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200608030128_Adding Proxies.cs" />
+    <Compile Remove="Migrations\20200608030128_Adding Proxies.Designer.cs" />
+    <Compile Remove="Migrations\20200608050136_Added Proxy.cs" />
+    <Compile Remove="Migrations\20200608050136_Added Proxy.Designer.cs" />
+    <Compile Remove="Migrations\20200611072053_Add StreamGame.cs" />
+    <Compile Remove="Migrations\20200611072053_Add StreamGame.Designer.cs" />
+    <Compile Remove="Migrations\20200701202722_Change Id to bigint from int.cs" />
+    <Compile Remove="Migrations\20200701202722_Change Id to bigint from int.Designer.cs" />
+    <Compile Remove="Migrations\20200723140809_Create DiscordGuildConfig.cs" />
+    <Compile Remove="Migrations\20200723140809_Create DiscordGuildConfig.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LiveBot.Core\LiveBot.Core.csproj" />
+  </ItemGroup>
+
+</Project>
