@@ -1,0 +1,98 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveBot.Core", "LiveBot.Core\LiveBot.Core.csproj", "{AF943DDE-0509-43D1-AEEB-0B984E624390}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveBot.Repository", "LiveBot.Repository\LiveBot.Repository.csproj", "{2A3671E5-C0C7-419D-85D4-8407FD3DEED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Solution Items", "00 Solution Items", "{C005824A-AC14-4D25-8F83-29FE3399C486}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		avatar.png = avatar.png
+		CodeMaid.config = CodeMaid.config
+		docker-compose.yml = docker-compose.yml
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Tests", "00 Tests", "{230C38C7-3A0E-467E-BCE5-92A32D2A4F04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Api", "01 Api", "{1F5DCE0C-F1A7-4F04-98D0-EE86CB6CC9DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.1 Discord", "02.1 Discord", "{709C4AF2-3084-4B28-B42A-6EF4707704A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Core", "03 Core", "{CDA9B861-8EC0-4693-93E9-2F700B9C85DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Repo", "04 Repo", "{F8AD3029-2C6F-4575-A4DC-B84B331AB910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Watcher", "05 Watcher", "{9219EEE8-7C53-4CC9-9940-5C0296092F89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.01 Twitch", "05.01 Twitch", "{5D9A8359-EF99-4F5E-8FC0-C5DA3C57E7D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{731850A7-AF23-4CDC-843D-BC1943E7B719}"
+	ProjectSection(SolutionItems) = preProject
+		.github\FUNDING.yml = .github\FUNDING.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveBot.Discord.SlashCommands", "LiveBot.Discord.SlashCommands\LiveBot.Discord.SlashCommands.csproj", "{CAEAD228-D6CD-4C5A-9A4F-1772B5424B28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveBot.Watcher.Twitch", "LiveBot.Watcher.Twitch\LiveBot.Watcher.Twitch.csproj", "{803A6AD8-B376-4C2C-83B3-13EF4C6D42FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "worflows", "worflows", "{ADD3D316-2522-42AB-88BD-5A82E945929E}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\docker-image-tag.yml = .github\workflows\docker-image-tag.yml
+		.github\workflows\docker-image.yml = .github\workflows\docker-image.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveBot.Core.HealthCheck", "LiveBot.Core.HealthCheck\LiveBot.Core.HealthCheck.csproj", "{2FD9B838-BB7D-4E60-B54C-E90B8BDF6D05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF943DDE-0509-43D1-AEEB-0B984E624390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF943DDE-0509-43D1-AEEB-0B984E624390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF943DDE-0509-43D1-AEEB-0B984E624390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF943DDE-0509-43D1-AEEB-0B984E624390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3671E5-C0C7-419D-85D4-8407FD3DEED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3671E5-C0C7-419D-85D4-8407FD3DEED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3671E5-C0C7-419D-85D4-8407FD3DEED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3671E5-C0C7-419D-85D4-8407FD3DEED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEAD228-D6CD-4C5A-9A4F-1772B5424B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEAD228-D6CD-4C5A-9A4F-1772B5424B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEAD228-D6CD-4C5A-9A4F-1772B5424B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEAD228-D6CD-4C5A-9A4F-1772B5424B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803A6AD8-B376-4C2C-83B3-13EF4C6D42FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803A6AD8-B376-4C2C-83B3-13EF4C6D42FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803A6AD8-B376-4C2C-83B3-13EF4C6D42FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803A6AD8-B376-4C2C-83B3-13EF4C6D42FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD9B838-BB7D-4E60-B54C-E90B8BDF6D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD9B838-BB7D-4E60-B54C-E90B8BDF6D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD9B838-BB7D-4E60-B54C-E90B8BDF6D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD9B838-BB7D-4E60-B54C-E90B8BDF6D05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF943DDE-0509-43D1-AEEB-0B984E624390} = {CDA9B861-8EC0-4693-93E9-2F700B9C85DC}
+		{2A3671E5-C0C7-419D-85D4-8407FD3DEED8} = {F8AD3029-2C6F-4575-A4DC-B84B331AB910}
+		{5D9A8359-EF99-4F5E-8FC0-C5DA3C57E7D1} = {9219EEE8-7C53-4CC9-9940-5C0296092F89}
+		{731850A7-AF23-4CDC-843D-BC1943E7B719} = {C005824A-AC14-4D25-8F83-29FE3399C486}
+		{CAEAD228-D6CD-4C5A-9A4F-1772B5424B28} = {709C4AF2-3084-4B28-B42A-6EF4707704A3}
+		{803A6AD8-B376-4C2C-83B3-13EF4C6D42FD} = {5D9A8359-EF99-4F5E-8FC0-C5DA3C57E7D1}
+		{ADD3D316-2522-42AB-88BD-5A82E945929E} = {731850A7-AF23-4CDC-843D-BC1943E7B719}
+		{2FD9B838-BB7D-4E60-B54C-E90B8BDF6D05} = {CDA9B861-8EC0-4693-93E9-2F700B9C85DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7BEBFC2-84F3-4E31-B8D6-001D28DD3892}
+	EndGlobalSection
+EndGlobal
