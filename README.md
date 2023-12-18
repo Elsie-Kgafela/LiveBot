@@ -15,3 +15,5 @@
 ## Thanks
 - [ThatOhio](https://github.com/thatohio) and his patience with me while I learned C# and wrote this new version of the bot at the same time
 - [BinaryDigit](https://github.com/BinaryDigitCodes) for making the avatar
+
+
